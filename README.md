@@ -1,4 +1,4 @@
-# WASDPad for LostArk v0.7.125
+# WASDPad for LostArk v0.7.126
 ## ◈ 목적
 - 키보드의 WASD키 신호를 XBox360 컨트롤러 신호로 에뮬레이션 해주는 프로그램.
 - LostArk의 캐릭터 이동을 마우스가 아닌 키보드의 WASD키로 가능.
@@ -57,11 +57,11 @@
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) 주의 사항
 - `패드 모드는 마우스의 모든 버튼을 공격 스킬에 사용하므로 일반적인 마우스의 사용에 불편함이 따른다. 따라서 전투 중이 아닌 경우에는 마우스 모드를 사용하거나 일시 정지를 통해서 마우스를 사용하는게 좋다. 단, 패드 모드에서 급하게 마우스를 사용하기 원한다면 Alt키를 누르고 마우스를 사용하면 된다.`
-- `패드 모드 사용중에 캐릭터가 오브젝트나 몬스터 사이에 껴서 움직이지 못하는 경우가 종종 발생한다. 이때는 마우스로 클릭해서 이동해야만 벗어날 수 있다. 이 버그는 물리적인 XBox360 컨트롤러를 사용할때도 동일하게 발생하는 LostArk의 자체 버그이다.`
+- `패드 모드 사용 중에 캐릭터가 오브젝트나 몬스터 사이에 껴서 움직이지 못하는 경우가 종종 발생한다. 이 때는 마우스로 클릭해서 이동해야만 벗어날 수 있다. 이 버그는 물리적인 XBox360 컨트롤러를 사용할때도 동일하게 발생하는 LostArk의 자체 버그이다.`
 
 ### 연락처
-- 질문이 있을 경우 메일(whitesnake@uzoo.in)로 연락주세요.
+- 질문이 있을 경우 메일(aurabunny@uzoo.in)로 연락주세요.
 
 ### 라이센스
-- This software is licensed under CC-BY-NC-ND license. © 2018 whitesnake contributors
+- This software is licensed under CC-BY-NC-ND license. © 2018 aurabunny contributors
 - 이 프로그램은 개인에게만 무료로 제공이 되며, 상업적 또는 영리적 이용은 제한됩니다.
