@@ -19,6 +19,8 @@
    - Install\ScpVBus\install.bat 파일을 관리자 권한으로 실행한다.
    - (직접 다운로드: https://github.com/shauleiz/vXboxInterface/releases)
 3. 재부팅한다.
+4. WASDPad4LostArk.exe로 프로그램 실행.
+   - 처음 실행시 XBox 360 가상 드라이버를 설치하는데, 패드 모드에서 WASD키로 캐릭터가 움직이지 않을 경우, 한번 더 재부팅을 한다.
 
 ## ◈ 사용 방법 ◈ 
     [ 모드 공용 ] ☞ 마우스 모드와 패드 모드에 상관없이 항상 사용가능한 단축키.
