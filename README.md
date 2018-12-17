@@ -8,18 +8,18 @@
    - Site ▶ https://github.com/oblitum/Interception
    - 키보드, 마우스 신호를 받기 위한 라이브러리.
 2. ScpVBus
-   - Site ▶ https://github.com/nefarius/ScpVBus
+   - Site ▶ https://github.com/nefarius/ScpVBus, https://github.com/shauleiz/vXboxInterface
    - XBox360 컨트롤러 신호를 발생시키기 위한 에뮬레이터.
 
 ## ◈ 설치 순서
-1. Interception 드라이버 설치
+1. 아래 링크에서 최신 버전을 다운로드한다.
+   - https://github.com/artgramsoft/WASDPad-for-LostArk/releases
+2. Interception 드라이버 설치
    - Install\Interception\install.bat 파일을 관리자 권한으로 실행한다.
-   - (직접 다운로드: https://github.com/oblitum/interception/releases)
-2. ScpVBus 드라이버 설치
+3. ScpVBus 드라이버 설치
    - Install\ScpVBus\install.bat 파일을 관리자 권한으로 실행한다.
-   - (직접 다운로드: https://github.com/shauleiz/vXboxInterface/releases)
-3. 재부팅한다.
-4. WASDPad4LostArk.exe로 프로그램 실행.
+4. 재부팅한다.
+5. WASDPad4LostArk.exe로 프로그램 실행.
    - 처음 실행시 XBox 360 가상 드라이버를 설치하는데, 패드 모드에서 WASD키로 캐릭터가 움직이지 않을 경우, 한번 더 재부팅을 한다.
 
 ## ◈ 사용 방법
