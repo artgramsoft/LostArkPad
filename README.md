@@ -72,6 +72,8 @@
 
 ### 연락처
 - 질문이 있을 경우 메일(aurabunny@uzoo.in)로 연락주세요.
+- 의견을 나눌 수 있는 포럼을 개설했습니다. 아래 주소에서 의견을 남겨주세요.
+  (https://groups.google.com/d/forum/wasdpad4lostark)
 
 ### 라이센스
 - This software is licensed under CC-BY-NC-ND license. © 2018 aurabunny contributors
