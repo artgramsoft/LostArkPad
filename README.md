@@ -1,4 +1,4 @@
-﻿# WASDPad for LostArk v0.8.154
+﻿# WASDPad for LostArk v0.8.166
 ## ◈ 목적
 - 키보드의 WASD키 신호를 XBox360 컨트롤러 신호로 에뮬레이션 해주는 프로그램.
 - LostArk의 캐릭터 이동을 마우스가 아닌 키보드의 WASD키로 가능.
