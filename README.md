@@ -79,9 +79,9 @@
 - `패드 모드 사용 중에 캐릭터가 오브젝트나 몬스터와 겹칠 경우 움직이지 못하는 끼임 현상이 종종 발생한다. 이 버그는 물리적인 XBox360 컨트롤러를 사용할때도 동일하게 발생하는 LostArk의 자체 버그이며 벗어나기 위해서는 Q버튼 또는 Alt + 마우스 클릭으로 이동해야만 한다.`
 
 ### 연락처
-- 질문이 있을 경우 메일(aurabunny@uzoo.in)로 연락주세요.
-- 의견을 나눌 수 있는 포럼을 개설했습니다. 아래 주소에서 의견을 남겨주세요.
-  (https://groups.google.com/d/forum/wasdpad4lostark)
+- 문의 사항이 있을 경우, 메일(aurabunny@uzoo.in)로 연락주세요.
+- 디스코드 서버를 개설했습니다. 여러분들의 의견을 남겨 주세요.
+  (https://discord.gg/WcRQzK)
 
 ### 라이센스
 - This software is licensed under CC-BY-NC-ND license. © 2018 aurabunny contributors
