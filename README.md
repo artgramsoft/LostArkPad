@@ -20,7 +20,7 @@
 3. ScpVBus 드라이버 설치
    - Install\ScpVBus\install.bat 파일을 관리자 권한으로 실행한다.
 4. 재부팅한다.
-5. WASDPad4LostArk.exe로 프로그램 실행.
+5. LostArkPad.exe로 프로그램 실행.
    - 처음 실행시 XBox 360 가상 드라이버를 설치하는데, 패드 모드에서 WASD키로 캐릭터가 움직이지 않을 경우, 한번 더 재부팅을 한다.
 
 ## ◈ 사용 방법
