@@ -33,7 +33,7 @@
 ```
 * 프로그램 종료 : Alt + Q
 * 일시 정지 : Alt + Z (모든 기능을 일시적으로 정지.)
-* 확대 축소 : Ctrl + Scroll or Alt + Scroll.
+* 확대 축소 : Home(확대) & End(축소) 또는 Ctrl + Scroll 또는 Alt + Scroll.
 * 팅김 방지 : Ctrl + P (30초마다 인벤토리창을 토글, LostArk가 비활성화 상태라도 작동.)  
    (** ↑ 팅김 방지 기능은 관리자 권한 필요.)
 ```
