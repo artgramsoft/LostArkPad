@@ -8,7 +8,7 @@
 - (*로스트 아크의 불법 프로그램 사용을 지양합니다. 개발진 측에서 이 프로그램을 불법 프로그램으로 판단할 경우 메일로 연락주시면 프로그램을 삭제하도록 하겠습니다.)
 
 ## ◈ 사용 라이브러리
-1. Interception 
+1. Interception
    - Site : https://github.com/oblitum/Interception
    - 키보드, 마우스 신호를 받기 위한 라이브러리.
 2. ScpVBus
