@@ -75,7 +75,7 @@
 * 상호 작용 : E (인게임 G키.)
 * 말타기 : R (인게임 F3키.)
 * 회복약 : F (인게임 F1키.)
-* 기본 공격 : MButton
+* 기본 공격 : C 또는 MButton (마우스 가운데 버튼)
 * 스킬 1(Q) : LButton
 * 스킬 2(W) : Wheel Up
 * 스킬 3(E) : Wheel Down
