@@ -65,7 +65,7 @@
 > 
 > * pad_type은 ARROW 또는 WASD로 설정할 수 있다.
 > * pad_mouse의 값은 캐릭터를 기준으로 움직일 마우스의 거리(pixel)이다.
-> * <span style="color:red">패드 마우스 기능은 LostArkPad를 관리자 권한으로 실행해야만 작동한다.</span>
+> * <span style="color:red">** 패드 마우스 기능은 LostArkPad를 관리자 권한으로 실행해야만 작동한다.</span>
 > 
 > ### 제스처 기능 ▶ 귀차니즘을 위한 기능으로 한손으로 키보드 없이 마우스를 이용해 스킬과 단축키를 사용할 수 있다.
 > 
