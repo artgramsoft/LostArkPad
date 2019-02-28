@@ -60,7 +60,14 @@
 |스크롤 다운    |Attack + Wheel Down|X      |              |마우스 공격 버튼 클릭상태에서 스크롤.  |
 |제스처 스킬    |아래 항목 참조     |X       |gesture_skill |설정에서 On/Off 가능. (기본값 Off)    |
 |제스처 액션    |아래 항목 참조     |O       |gesture_action|설정에서 On/Off 가능. (기본값 On)     |
-
+|스킬 Q        |Q                 |O       |skill_q       |인게임에서 Q키 기능.                  |
+|스킬 W        |W                 |O       |skill_w       |인게임에서 W키 기능.                  |
+|스킬 E        |E                 |O       |skill_e       |인게임에서 E키 기능.                  |
+|스킬 R        |R                 |O       |skill_r       |인게임에서 R키 기능.                  |
+|스킬 A        |A                 |O       |skill_a       |인게임에서 A키 기능.                  |
+|스킬 S        |S                 |O       |skill_s       |인게임에서 S키 기능.                  |
+|스킬 D        |D                 |O       |skill_d       |인게임에서 D키 기능.                  |
+|스킬 F        |F                 |O       |skill_f       |인게임에서 F키 기능.                  |
 > ### 키보드 패드 ▶ 키보드 신호를 XBox360 조이스틱 신호로 변경해주는 기능.
 > 
 > * pad_type은 ARROW 또는 WASD로 설정할 수 있다.
