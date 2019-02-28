@@ -46,7 +46,8 @@
 ```
 |기능           |기본 단축키        |변경 가능|설정 항목     |설명                                 |
 |:---           |:---              |:---:   |:---         |:---                                 |
-|키보드 패드    |화살표 키          |O       |pad_type     |키보드로 캐릭터 이동. (기본값 ARROW.)   |
+|키보드 패드    |화살표 키          |O       |pad_type      |키보드로 캐릭터 이동. (기본값 ARROW.)   |
+|패드 마우스    |화살표 키          |O       |pad_mouse     |캐릭터 이동 방향으로 마우스 자동 이동.(*)|
 |자동 달리기    |더블 클릭          |X       |run           |설정에서 On/Off 가능.                 |
 |상호 작용      |Wheel Down        |O       |act           |인게임에서 G키 기능.                  |
 |말타기         |Wheel Up          |O       |ride          |인게임에서 F3키 기능.                 |
@@ -55,12 +56,16 @@
 |배틀 아이템 2  |Shift + LButton   |O       |battle_2      |인게임에서 2키 기능.                  |
 |배틀 아이템 3  |Shift + MButton   |O       |battle_3      |인게임에서 3키 기능.                  |
 |배틀 아이템 4  |Shift + RButton   |O       |battle_4      |인게임에서 4키 기능.                  |
-|스크롤 업      |RButton + Wheel Up|X       |              |휠 스크롤 업 기능.                    |
-|스크롤 다운    |RButton + Wheel Down|X       |            |휠 스크롤 다운 기능.                  |
+|스크롤 업      |Attack + Wheel Up |X       |              |마우스 공격 버튼 클릭상태에서 스크롤.  |
+|스크롤 다운    |Attack + Wheel Down|X      |              |마우스 공격 버튼 클릭상태에서 스크롤.  |
 |제스처 스킬    |아래 항목 참조     |X       |gesture_skill |설정에서 On/Off 가능. (기본값 Off)    |
 |제스처 액션    |아래 항목 참조     |O       |gesture_action|설정에서 On/Off 가능. (기본값 On)     |
 
-> ### 키보드 패드 ▶ pad_type은 ARROW 또는 WASD로 설정할 수 있다.
+> ### 키보드 패드 ▶ 키보드 신호를 XBox360 조이스틱 신호로 변경해주는 기능.
+> 
+> * pad_type은 ARROW 또는 WASD로 설정할 수 있다.
+> * pad_mouse의 값은 캐릭터를 기준으로 움직일 마우스의 거리(pixel)이다.
+> * <span style="color:red">패드 마우스 기능은 LostArkPad를 관리자 권한으로 실행해야만 작동한다.</span>
 > 
 > ### 제스처 기능 ▶ 귀차니즘을 위한 기능으로 한손으로 키보드 없이 마우스를 이용해 스킬과 단축키를 사용할 수 있다.
 > 
