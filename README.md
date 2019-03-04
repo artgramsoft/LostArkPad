@@ -83,7 +83,7 @@
 > (* MOUSE: 마우스 방향으로 스킬을 사용한다.)
 > * move_mouse의 값이 true이면, 패드 사용시 마우스가 패드 방향으로 같이 이동한다.
 > * move_mouse의 값이 true일 경우, 이동하는 마우스의 기본 거리는 move_length 이며, trans_key를 누르면 trans_length 만큼 이동한다.
-> * <span style="color:red">** move_mouse 기능은 LostArkPad를 관리자 권한으로 실행해야만 작동한다.</span>
+> * `*** move_mouse 기능은 LostArkPad를 관리자 권한으로 실행해야만 작동한다.***`
 > 
 > ### 제스처 기능 ▶ 귀차니즘을 위한 기능으로 한손으로 키보드 없이 마우스를 이용해 스킬과 단축키를 사용할 수 있다.
 > 
