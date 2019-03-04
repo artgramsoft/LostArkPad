@@ -46,9 +46,16 @@
 ```
 |기능           |기본 단축키        |변경 가능|설정 항목     |설명                                 |
 |:---           |:---              |:---:   |:---         |:---                                 |
-|키보드 패드    |화살표 키          |O       |pad_type      |키보드로 캐릭터 이동. (기본값 ARROW.)   |
-|패드 마우스    |화살표 키          |O       |pad_mouse     |캐릭터 이동 방향으로 마우스 자동 이동.(*)|
-|자동 달리기    |더블 클릭          |X       |run           |설정에서 On/Off 가능.                 |
+|키보드 패드    |화살표 키          |O       |pad           |키보드로 캐릭터 이동.                 |
+|              |                  |O       |- type        |ARROW 또는 WASD (기본값 ARROW)        |
+|              |                  |O       |- skill_dir   |스킬이 나가는 방향 설정 (기본값 PAD)   |
+|              |                  |O       |- move_mouse  |패드 사용시 마우스 이동 (기본값 true)  |
+|              |                  |O       |- move_length |마우스 이동 거리 (기본값 300 pixel)    |
+|              |                  |O       |- trans_length |마우스 이동 거리 2 (기본값 500 pixel)    |
+|              |                  |O       |- trans_key_code |마우스 이동 거리 2 조작 키 (기본값 Shift) |
+|자동 달리기    |더블 클릭          |X       |run           |마우스 따라 이동. (On/Off 가능.)      |
+|직선 달리기    |트리플 클릭        |X       |run           |인게임에서 T키 기능. (On/Off 가능.)   |
+|대쉬          |이동 중 Wheel Down |X       |              |인게임에서 Space키 기능.              |
 |상호 작용      |Wheel Down        |O       |act           |인게임에서 G키 기능.                  |
 |말타기         |Wheel Up          |O       |ride          |인게임에서 F3키 기능.                 |
 |물약 먹기      |Shift + Wheel Up  |O       |potion        |인게임에서 F1키 기능.                 |
@@ -70,9 +77,13 @@
 |스킬 F        |F                 |O       |skill_f       |인게임에서 F키 기능.                  |
 > ### 키보드 패드 ▶ 키보드 신호를 XBox360 조이스틱 신호로 변경해주는 기능.
 > 
-> * pad_type은 ARROW 또는 WASD로 설정할 수 있다.
-> * pad_mouse의 값은 캐릭터를 기준으로 움직일 마우스의 거리(pixel)이다.
-> * <span style="color:red">** 패드 마우스 기능은 LostArkPad를 관리자 권한으로 실행해야만 작동한다.</span>
+> * type은 ARROW 또는 WASD로 설정할 수 있다.
+> * skill_dir은 MOUSE 또는 PAD로 설정할 수 있다.  
+> (* PAD: 패드 방향으로 스킬을 사용한다.)  
+> (* MOUSE: 마우스 방향으로 스킬을 사용한다.)
+> * move_mouse의 값이 true이면, 패드 사용시 마우스가 패드 방향으로 같이 이동한다.
+> * move_mouse의 값이 true일 경우, 이동하는 마우스의 기본 거리는 move_length 이며, trans_key를 누르면 trans_length 만큼 이동한다.
+> * <span style="color:red">** move_mouse 기능은 LostArkPad를 관리자 권한으로 실행해야만 작동한다.</span>
 > 
 > ### 제스처 기능 ▶ 귀차니즘을 위한 기능으로 한손으로 키보드 없이 마우스를 이용해 스킬과 단축키를 사용할 수 있다.
 > 
@@ -109,7 +120,13 @@
 ```
 |기능           |기본 단축키       |변경 가능|설정 항목  |설명                                   |
 |:---           |:---             |:---:   |:---      |:---                                   |
-|키보드 패드    |WASD 키           |O       |pad_type  |키보드로 캐릭터 이동. (기본값 WASD.)     |
+|키보드 패드    |WASD 키           |O       |pad              |키보드로 캐릭터 이동.                 |
+|              |                  |O       |- type           |ARROW 또는 WASD (기본값 WASD)        |
+|              |                  |O       |- skill_dir      |스킬이 나가는 방향 설정 (기본값 MOUSE)   |
+|              |                  |O       |- move_mouse     |패드 사용시 마우스 이동 (기본값 false)  |
+|              |                  |O       |- move_length    |마우스 이동 거리 (기본값 300 pixel)    |
+|              |                  |O       |- trans_length   |마우스 이동 거리 2 (기본값 500 pixel)    |
+|              |                  |O       |- trans_key_code |마우스 이동 거리 2 조작 키 (기본값 Shift) |
 |마우스 기능    |Alt + Mouse      |X       |           |마우스 클릭 & 우클릭에 사용.            |
 |자동 달리기    |Q                |O       |run        |이동키를 누르면 캔슬.                   |
 |상호 작용      |E                |O       |act        |인게임에서 G키 기능.                    |
@@ -125,7 +142,8 @@
 |스킬 S        |Shift + Wheel Up  |O       |skill_s    |인게임에서 S키 기능.                    |
 |스킬 D        |Shift + Wheel Down|O       |skill_d    |인게임에서 D키 기능.                    |
 |스킬 F        |Shift + RButton   |O       |skill_f    |인게임에서 F키 기능.                    |
-
+> ### 키보드 패드 ▶ 키보드 신호를 XBox360 조이스틱 신호로 변경해주는 기능. (설명은 마우스 모드 참조.)
+> 
 > ### 공격 캔슬 기능 ▶ 기본 공격을 이동키로 캔슬하여 조금 더 빠르게 사용하기 위한 기능.
 > 
 > * 공격 캔슬 기능을 끄려면 설정 파일의 attack_cancel 항목의 값을 0으로 설정한다.
@@ -150,8 +168,7 @@
 1. GetKeyCode.exe 파일을 실행한다.
 2. 단축키로 사용하려는 키를 누른다.
 3. 화면상에 나오는 Code값과 State값을 기억한다. 
-4. 키를 눌렀을 때와 눌렀다 떼었을 때의 State값을 잘 구분해야 한다.
-5. 설정파일에서 변경하기 원하는 단축키의 code와 state값을 위의 값으로 설정한다.
+4. 설정파일에서 변경하기 원하는 단축키의 code와 state값을 위의 값으로 설정한다.
 
 ### ※ 키보드 예제.
 |예제 1|설명|예제 2|설명|
