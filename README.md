@@ -186,7 +186,7 @@
 |block|true 또는 false|단축키 신호를 게임으로도 보낼것인지 지정.|
 
 ### ※ 단축키 code 및 state 값 구하기.
-1. GetKeyCode.exe 파일을 실행한다.
+1. InterceptorKeyCode.exe 파일을 실행한다.
 2. 단축키로 사용하려는 키를 누른다.
 3. 화면상에 나오는 Code값과 State값을 기억한다. 
 4. 설정파일에서 변경하기 원하는 단축키의 code와 state값을 위의 값으로 설정한다.
