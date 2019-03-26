@@ -95,6 +95,9 @@
 |스킬 S        |S                 |O       |skill_s       |인게임에서 S키 기능.                  |
 |스킬 D        |D                 |O       |skill_d       |인게임에서 D키 기능.                  |
 |스킬 F        |F                 |O       |skill_f       |인게임에서 F키 기능.                  |
+|스킬 Z        |Z                 |O       |skill_z       |인게임에서 Z키 기능.                  |
+|스킬 X        |X                 |O       |skill_x       |인게임에서 X키 기능.                  |
+|스킬 V        |V                 |O       |skill_v       |인게임에서 V키 기능.                  |
 > ### 키보드 패드 ▶ 키보드 신호를 XBox360 조이스틱 신호로 변경해주는 기능.
 > 
 > * type은 ARROW 또는 WASD로 설정할 수 있다.
@@ -163,6 +166,9 @@
 |스킬 S        |Shift + Wheel Up  |O       |skill_s    |인게임에서 S키 기능.                    |
 |스킬 D        |Shift + Wheel Down|O       |skill_d    |인게임에서 D키 기능.                    |
 |스킬 F        |Shift + RButton   |O       |skill_f    |인게임에서 F키 기능.                    |
+|스킬 Z        |XButton1(뒤로가기) |O       |skill_z    |인게임에서 Z키 기능.                    |
+|스킬 X        |Shift + XButton1  |O       |skill_x    |인게임에서 X키 기능.                    |
+|스킬 V        |Shift + MButton   |O       |skill_v    |인게임에서 V키 기능.                    |
 > ### 키보드 패드 ▶ 키보드 신호를 XBox360 조이스틱 신호로 변경해주는 기능. (설명은 마우스 모드 참조.)
 > 
 > ### 공격 캔슬 기능 ▶ 기본 공격을 이동키로 캔슬하여 조금 더 빠르게 사용하기 위한 기능.
